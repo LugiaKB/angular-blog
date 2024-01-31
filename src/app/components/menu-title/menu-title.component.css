@@ -1,12 +1,11 @@
 .container__menu-title {
-    color:aliceblue;
+    color: aliceblue;
 }
 
 .container__menu-title > h1 {
     padding: 15px;
-    font-size:135px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display:flex;
+    font-size: 135px;
+    display: flex;
     justify-content: center;
 }
 
