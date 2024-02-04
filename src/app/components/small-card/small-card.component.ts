@@ -8,4 +8,8 @@ import { Component, Input } from '@angular/core';
 export class SmallCardComponent {
     @Input()
     title: string = '';
+
+    @Input()
+    imageSource =
+        'https://cordierinvestimentos.com.br/wp-content/uploads/2020/09/placeholder.png';
 }
