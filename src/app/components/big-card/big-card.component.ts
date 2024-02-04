@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class BigCardComponent {
     @Input()
-    bigTitle: string = '';
+    title: string = '';
 }
