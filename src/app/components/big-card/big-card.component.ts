@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { DefaultImageSources } from '../../../shared/enums';
 
 @Component({
     selector: 'app-big-card',
@@ -10,6 +11,9 @@ export class BigCardComponent {
     title: string = '';
 
     @Input()
-    imageSource =
-        'https://cordierinvestimentos.com.br/wp-content/uploads/2020/09/placeholder.png';
+    imageSource: string = DefaultImageSources.Placeholder;
+
+    @Input()
+    description: string =
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo porttitor dolor, id maximus est scelerisque ut. Nullam iaculis egestas leo quis imperdiet. Mauris eget interdum odio. Praesent at enim dui. Pellentesque et ex nec libero rutrum euismod. Suspendisse tincidunt in dolor tempor vestibulum.';
 }

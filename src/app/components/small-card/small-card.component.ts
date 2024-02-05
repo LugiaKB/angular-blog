@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { DefaultImageSources } from '../../../shared/enums';
 
 @Component({
     selector: 'app-small-card',
@@ -10,6 +11,5 @@ export class SmallCardComponent {
     title: string = '';
 
     @Input()
-    imageSource =
-        'https://cordierinvestimentos.com.br/wp-content/uploads/2020/09/placeholder.png';
+    imageSource: string = DefaultImageSources.Placeholder;
 }
