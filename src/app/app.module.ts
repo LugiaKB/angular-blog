@@ -9,6 +9,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { ArticleComponent } from './pages/article/article.component';
 
 @NgModule({
     declarations: [
@@ -18,6 +19,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
         MenuTitleComponent,
         HomeComponent,
         MenuBarComponent,
+        ArticleComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
